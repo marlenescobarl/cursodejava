@@ -5,7 +5,7 @@ public class Practice
     {
         //declaration of variables
         Scanner go = new Scanner(System.in);
-        int num1 = 0, num2 = 0, num3 = 0, answer = 0, parameter = 0;
+        int num1 = 0, num2 = 0, num3 = 0, answer = 0, option = 0;
         String name = "";
 
         System.out.println("__________________________________________________________");
@@ -34,6 +34,30 @@ public class Practice
         System.out.println("option 4: division");
         System.out.println("option 5: combined operations");
 
+        switch(optcion)
+        {
+            case 1: answer = (num1 + num2 + num3);
+                    System.out.println("The answer is: " + answer);
+                    break;
+            case 2: answer = (num1 - num2 - num3);
+                    System.out.println("The answer is: " + answer);
+                    break;
+            case 3: answer = (num1 * num2 * num3 );
+                    System.out.println("The answer is: " + answer);
+                    break;
+            case 4: answer = (num1 / num2 / num3);
+                    System.out.println("The answer is: ");
+                    break;
+            case 5: if(num1 > num2 && num1 > num3)
+                    {
+                        answer = (num1 / num3) * num2;
+                        System.out.println("The answer of operation is: " + answer);
+                    } 
+                    else if(num2 > num1 && num2 > num3)
+                    {
+                        answer = 
+                    }
+        }
 
     }
 
