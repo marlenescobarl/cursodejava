@@ -14,7 +14,7 @@ public class Practice
         System.out.println("");
 
         //data entry
-        System.out.print("Enter your name");
+        System.out.print("Enter your name: ");
         name = go.nextLine();
         System.out.println("");
         System.out.println("Hi! "+ name + " enter the numbers: ");
@@ -33,7 +33,9 @@ public class Practice
         System.out.println("option 3: multiplication");
         System.out.println("option 4: division");
         System.out.println("option 5: combined operations");
+        option = go.nextInt();
 
+        
         switch(option)
         {
             case 1: answer = (num1 + num2 + num3);
@@ -63,9 +65,11 @@ public class Practice
                         answer = (num3 / num1) * num2;
                         System.out.println("The answer of operation is: " + answer);
                     } 
-                    else if(answer < 0)
+                    if(answer < 0)
                     {
+                        System.out.println("");
                         System.out.println("The answer is NEGATIVE: ");
+                        System.out.println("");
                     }
                     break;
             default: System.out.println("ERROR! the option entered does not exist");
