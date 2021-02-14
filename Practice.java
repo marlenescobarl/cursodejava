@@ -34,7 +34,7 @@ public class Practice
         System.out.println("option 4: division");
         System.out.println("option 5: combined operations");
 
-        switch(optcion)
+        switch(option)
         {
             case 1: answer = (num1 + num2 + num3);
                     System.out.println("The answer is: " + answer);
@@ -55,8 +55,21 @@ public class Practice
                     } 
                     else if(num2 > num1 && num2 > num3)
                     {
-                        answer = 
+                        answer = (num2 / num3) * num1;
+                        System.out.println("The answer of operation is: " + answer);
+                    } 
+                    else if(num3 > num1 && num3 > num2)
+                    {
+                        answer = (num3 / num1) * num2;
+                        System.out.println("The answer of operation is: " + answer);
+                    } 
+                    else if(answer < 0)
+                    {
+                        System.out.println("The answer is NEGATIVE: ");
                     }
+                    break;
+            default: System.out.println("ERROR! the option entered does not exist");
+                     break;
         }
 
     }
