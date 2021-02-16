@@ -75,7 +75,12 @@ public class Practice
             default: System.out.println("ERROR! the option entered does not exist");
                      break;
         }
+        //bucle for en espanl :)
+        //System.out.println("PRACTICE FOR");
+        //System.out.println("");
+        //System.out.println("Enter the number ope");
 
+        //for (){}
     }
 
 }
