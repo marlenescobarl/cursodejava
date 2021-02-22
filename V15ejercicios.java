@@ -82,5 +82,34 @@ public class V15ejercicios
             // aca se coloca el decremento para j
             j -- ;
         }
+        // devolver a las varibles a su valor inicial
+        i = 1;
+        j = 99;
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Incremento y decremento con while");
+
+        while(i <= 5)
+        {
+            if( i < 5)
+            {
+                System.out.print(i + ", ");
+                System.out.print(j + ", ");
+            }else
+            {
+                System.out.print( + ",");
+                System.out.print(j + "");
+            }
+            j -- ;
+        }
+         // devolver a las varibles a su valor inicial
+        i = 1;
+        j = 99;
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Incremento y decremento con do - while");
+        
     }
 }
