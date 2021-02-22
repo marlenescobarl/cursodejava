@@ -9,9 +9,17 @@ public class V15ejercicios
 
         //impresion en pantalla de: 1,2,3,4,5,6,7,8,9,10
         // inicio  instruccion aumento
-        for (i = 1; i =<10; i ++)
+        for (i = 1; i <=10; i ++)
         {
             //instruccion
+            if (i < 10)
+            {
+                System.out.print(i + ",");
+            } 
+            else 
+            {
+                System.out.print(i);
+            }
 
         }
     }
