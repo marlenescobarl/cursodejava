@@ -98,9 +98,10 @@ public class V15ejercicios
                 System.out.print(j + ", ");
             }else
             {
-                System.out.print( + ",");
+                System.out.print(i + ", ");
                 System.out.print(j + "");
             }
+            i ++;
             j -- ;
         }
          // devolver a las varibles a su valor inicial
@@ -110,6 +111,19 @@ public class V15ejercicios
         System.out.println("");
         System.out.println("");
         System.out.println("Incremento y decremento con do - while");
-        
+        do
+        {
+            if( i < 5)
+            {
+                System.out.print(i + ", ");
+                System.out.print(j + ", ");
+            }else
+            {
+                System.out.print(i + ", ");
+                System.out.print(j + "");
+            }
+            i ++;
+            j -- ;
+        }while( i <= 5);
     }
 }
