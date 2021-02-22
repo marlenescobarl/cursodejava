@@ -14,11 +14,11 @@ public class V15ejercicios
             //instruccion
             if (i < 10)
             {
-                System.out.print(i + ",");
+                System.out.print(i + ","); // imprimira en pantala el valor de i y despues la coma
             } 
             else 
             {
-                System.out.print(i);
+                System.out.print(i ""); // se condiciona que al ser menor que 10 despues de, ya no se imprimira la ,
             }
 
         }
