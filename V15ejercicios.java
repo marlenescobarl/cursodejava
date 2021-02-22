@@ -15,8 +15,7 @@ public class V15ejercicios
             if (i < 10)
             {
                 System.out.print(i + ", "); // imprimira en pantala el valor de i y despues la coma
-            } 
-            else 
+            } else 
             {
                 System.out.print(i); // se condiciona que al ser menor que 10 despues de, ya no se imprimira la ,
             }
@@ -35,12 +34,27 @@ public class V15ejercicios
             if ( i < 10)
             {
                 System.out.print(i + ", ");
-            }
-            else // de lo contrario imprime lo siguiente sin coma
+            }else // de lo contrario imprime lo siguiente sin coma
             {
                 System.out.print(i); 
             }
             i ++ ; // para cerrar el ciclo, el incremento
         }
+        //impresion en pantalla de: 1,2,3,4,5,6,7,8,9,10
+        // regresar a la variable al valor que se esta manejando
+        i = 1;
+        System.out.println("");
+        System.out.println("Ciclo con do - while");
+        do
+        {
+            if(i < 10)
+            {
+                System.out.print(i + ", ");
+            }else{
+                System.out.print(i);
+            }
+            i ++;
+
+        }while(i <= 10); //va la condicion
     }
 }
