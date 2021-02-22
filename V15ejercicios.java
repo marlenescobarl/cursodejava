@@ -56,5 +56,31 @@ public class V15ejercicios
             i ++;
 
         }while(i <= 10); //va la condicion
+
+        // ciclo dos incremento y decremento: 1, 99, 2, 98, 3, 97, 4, 96, 5, 95
+        // se declara la variable j para este ciclo
+        int j = 99;
+        i = 1;
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Incremento y decremento con for");
+      
+        // se hace la condicion para i ya que el primer valor a imprimir
+        for(i = 1; i <= 5; i ++) 
+        {
+            if( i < 5)
+            {
+                System.out.print(i + ", ");
+                //le indicamos que queremos que inicie a imprir el 99 de j
+                System.out.print(j + ", ");
+            }else
+            {
+                // de lo contrario se imprime , para i pero para j ya no porque es el valor final 95
+                System.out.print(i + ", ");
+                System.out.print(j + "");
+            }
+            // aca se coloca el decremento para j
+            j -- ;
+        }
     }
 }
