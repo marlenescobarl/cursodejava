@@ -61,6 +61,7 @@ public class V15ejercicios
         // se declara la variable j para este ciclo
         int j = 99;
         i = 1;
+
         System.out.println("");
         System.out.println("");
         System.out.println("Incremento y decremento con for");
@@ -87,7 +88,6 @@ public class V15ejercicios
         j = 99;
 
         System.out.println("");
-        System.out.println("");
         System.out.println("Incremento y decremento con while");
 
         while(i <= 5)
@@ -109,7 +109,6 @@ public class V15ejercicios
         j = 99;
 
         System.out.println("");
-        System.out.println("");
         System.out.println("Incremento y decremento con do - while");
         do
         {
@@ -125,5 +124,78 @@ public class V15ejercicios
             i ++;
             j -- ;
         }while( i <= 5);
+
+        // sucesion FIBONACII
+        //0, 1,1,2,3,5,8,13,21,34
+
+        // b = 1 porque es el dato que se ira sumando
+        int  l = 0, a = 0, b = 1, c = 0; // ab haran la suma y el resultado se almacenara en c
+        // i funciona para guiar las instrucciones
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Ciclo FIBONACII con for");
+
+        for( l = 0; l < 10; l ++)  // 10 seran las cifras que se imprimiran en pantalla
+        { 
+            //porque  despuez del 10 se imprimira la ,
+            if( l < 9 ) // 9 porque se esta usando el menor que
+            {
+                System.out.print(a + ", "); // iniciar el ciclo con 0
+                c = a + b; // c donde se almacena el resultado
+                a = b;  
+                b = c;
+            }else
+            {
+                System.out.print(a);
+            }
+            
+        }
+        l = 0;
+        a = 0;
+        b = 1;
+        c = 0;
+        System.out.println("");
+        System.out.println("Ciclo FIBONCII con while");
+
+        while(l < 10)
+        {
+            if(l < 9 )
+            {
+                System.out.print(a + ", ");
+                c = a + b;
+                a = b;
+                b = c;
+            }else
+            {
+                System.out.print(a);
+            }
+            l ++;
+        }
+         l = 0;
+        a = 0;
+        b = 1;
+        c = 0;
+        System.out.println("");
+        System.out.println("Ciclo FIBONCII con do - while");
+
+        do
+        {
+            if(l < 9 )
+            {
+                System.out.print(a + ", ");
+                c = a + b;
+                a = b;
+                b = c;
+            }else
+            {
+                System.out.print(a);
+            }
+            l ++;
+
+        }while(l < 10);
+
+        System.out.println("");
+        System.out.println("");
+        System.out.println(" FIN POR AHORA ... ");
     }
 }
