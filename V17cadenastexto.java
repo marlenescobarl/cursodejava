@@ -6,7 +6,7 @@ public class V17cadenastexto
         /*
         Realizar un programa que compare dos nombres para verificar si son iguales
         y mostrar un mensaje dependientemente del resultado. ingreso de datos
-        usando el metodo de comparación de canedas de texto 
+        usando el metodo de comparacion de canedas de texto 
         equals();
          */
          //     objeto
@@ -18,10 +18,18 @@ public class V17cadenastexto
 
          System.out.println("");
 
-         System.out.print("Ingrese el segundo nombre")
+         System.out.print("Ingrese el segundo nombre: ");
          nombre_dos = entrada.nextLine();
 
+         System.out.println(""); 
          //condicion para hacer la comparaaion de los textos
+         if(nombre_uno.equals(nombre_dos))
+         {
+             System.out.println("Los nombres ingresados son iguales");
+         }else
+         {
+             System.out.println("Los nombres ingresados son diferentes");
+         }
 
 
     }
