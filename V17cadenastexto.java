@@ -23,13 +23,25 @@ public class V17cadenastexto
 
          System.out.println(""); 
          //condicion para hacer la comparaaion de los textos
-         if(nombre_uno.equals(nombre_dos))
+         // se agrego IgnoreCase para que ignore si son mayusculas o minusculas y que se el mismo dato
+         if(nombre_uno.equalsIgnoreCase(nombre_dos))
          {
              System.out.println("Los nombres ingresados son iguales");
          }else
          {
              System.out.println("Los nombres ingresados son diferentes");
          }
+         System.out.println("");
+         System.out.println("EJERCICIO DOS");
+         System.out.println("");
+
+         /*Realizar un programa que simule el inicio de sesion solicitando el nombre de usuario
+         y contrasena, para compararlos y mostrar un mensaje en pantalla que diga:
+         inicio de sesion correctos/ nombre de usurario o password incorrectos
+          */
+          //String name = "";
+         
+
 
 
     }
