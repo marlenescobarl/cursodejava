@@ -31,18 +31,7 @@ public class V17cadenastexto
          {
              System.out.println("Los nombres ingresados son diferentes");
          }
-         System.out.println("");
-         System.out.println("EJERCICIO DOS");
-         System.out.println("");
-
-         /*Realizar un programa que simule el inicio de sesion solicitando el nombre de usuario
-         y contrasena, para compararlos y mostrar un mensaje en pantalla que diga:
-         inicio de sesion correctos/ nombre de usurario o password incorrectos
-          */
-          //String name = "";
-         
-
-
-
+        
+        
     }
 }
