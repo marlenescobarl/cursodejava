@@ -25,6 +25,9 @@ public class V20vectoresdinamicos
         {
             System.out.println("[ " + numeros[i] + " ]");
         }
+        /*
+        Tenia problemas con el Scanner, pero fue porque el objeto lo tenia llamado long
+         */
 
 
     }
