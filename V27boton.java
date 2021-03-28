@@ -4,10 +4,20 @@ public class V27boton extends JFrame implements ActionListener //atento al llama
 {
     //llamdo  del boton
     JButton boton1;
+    JLabel label1;
+    JLabel label2;
     
     public V27boton() 
     {
         setLayout(null);
+        label1 = new JLabel ("TE QUIERO MUCHO ");
+        label1.setBounds(10, 10, 300, 30);
+        add(label1);
+
+        label2 = new JLabel ("T I G R E");
+        label2.setBounds(10, 100, 100, 30);
+        add(label2);
+
         boton1 = new JButton("cerrar");
         boton1.setBounds(300,250,100,30);
         add(boton1);
