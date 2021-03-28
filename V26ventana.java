@@ -43,3 +43,4 @@ public class V26ventana extends JFrame
     }
 
 }
+
