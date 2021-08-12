@@ -14,12 +14,12 @@ public class V29practica extends JFrame implements ActionListener {
         label1.setBounds(10, 10, 100, 30);
         add(label1);
 
-        //programacion del diseño de la caja de texto
+        //programacion del diseno de la caja de texto
         textfield1 = new JTextField();
         textfield1.setBounds(120, 17, 150, 20);
         add(textfield1);
 
-        //diseño del boton
+        //diseno del boton
         boton1 = new JButton("ACEPTAR");
         boton1.setBounds(10, 80, 100, 30);
         add(boton1);
@@ -35,12 +35,12 @@ public class V29practica extends JFrame implements ActionListener {
             setTitle(texto);
         }
     }
-}
-//programacion de la interfaz
-public static void main (String args[]){
-    V29practica formulario = new V29practica();
-    formulario.setBounds(0,0, 300, 150);
-    formulario.setVisible(true);
-    formulario.setResizable(false);
-    formulario.setLocationRelativeTo(null);
+    //programacion de la interfaz
+    public static void main (String args[]){
+        V29practica formulario = new V29practica();
+        formulario.setBounds(0,0, 300, 150);
+        formulario.setVisible(true);
+        formulario.setResizable(false);
+        formulario.setLocationRelativeTo(null);
+    }
 }
